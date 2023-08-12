@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shine-Clinic</title>
+    <link rel="stylesheet" href="./shine.clinic.CSS">
+    
+</head>
+<body>
+    <img src="./Screenshot 2023-08-02 110842.png" alt="">
+    <form action="">
+        <h2>Shine Clinic</h2>
+        <table>
+          <!--first row-->
+          <tr>
+            <td>Admission-info</td>
+            <td>personnal-info</td>
+            <td>Payment-info</td>
+          </tr>
+          <!--second row-->
+          <tr>
+            <td colspan="3" class="adm">Admission Information</td>
+          </tr>
+          <!--third row-->
+          <tr>
+            <td>
+                Date of Admission<br/>
+                <input type="date" >
+                
+            </td>
+            <td>Select the Admission type<br/>
+                <select name="" id="">
+                    <option value="">Select..</option>
+                    <option value="">New Admission</option>
+                    <option value="">Already have</option>
+                    
+                </select>
+            </td>
+            <td>
+                Admission For<br/>
+                <select name="" id="">
+                    <option value="">Select..</option>
+                    <option value="">Ear</option>
+                    <option value="">Throat</option>
+                    <option value="">Nose</option>
+                    <option value="">General Checkup</option>
+                </select>    
+            </td>
+          </tr>
+          <!--Fourth row-->
+          <tr>
+            <td colspan="3">
+                **Select if you have any of the following below
+            </td>
+          </tr>
+          <!--fifth row-->
+          <tr>
+            <td>
+                <input type="checkbox" id="fever">
+                <label for="fever">Fever</label>
+            </td>
+            <td>
+                <input type="checkbox" id="cold">
+                <label for="cold">Cold</label>
+            </td>
+            <td>
+                <input type="checkbox" id="cough">
+                <label for="cough">Cough</label>
+            </td>
+          </tr>
+          <!--sixth row-->
+          <tr>
+            <td>
+                <input type="checkbox" id="diapedesis">
+                <label for="diapedesis">Diapedesis</label>
+            </td>
+            <td>
+                <input type="checkbox" id="BP">
+                <label for="Bp">Blood Pressure</label>
+            </td>
+            <td>
+                <input type="checkbox" id="heavy surgery">
+                <label for="heavy surgery">Heavy Surgery</label>
+            </td>
+          </tr>
+          <!--seventh row-->
+          <tr>
+            <td colspan="3" class="pi">
+                Personnal Information
+            </td>
+          </tr>
+          <!--eigth row-->
+          <tr>
+            <td>Patient Name</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="1" placeholder="Enter the patient name"></textarea>
+            </td>
+          </tr>
+          <!--ninth row-->
+          <tr>
+            <td>Phone Number</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="1" placeholder="Enter the phone number"></textarea>
+            </td>
+          </tr>
+          <!--tenth row-->
+          <tr>
+            <td>Email id</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="1" placeholder="Enter the email id"></textarea>
+            </td>
+          </tr>
+          <!--eleventh row-->
+          <tr>
+            <td>Age</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="1" placeholder="Enter the age"></textarea>
+            </td>
+          </tr>
+          <!--twelevth row-->
+          <tr>
+            <td>Address</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="3" placeholder="Enter the address"></textarea>
+            </td>
+          </tr>
+          <!--thirteen row-->
+          <tr>
+            <td colspan="3" class="pai">
+                Payment information
+            </td>
+          </tr>
+          <!--fourteen row-->
+          <tr>
+            <td>Select the payment type:</td>
+            <td>
+                <input type="radio" id="cash" name="payment">
+                <label for="cash">Cash</label>
+            </td>
+            <td>
+                <input type="radio" id="card" name="payment">
+                <label for="card">Card</label>
+            </td>
+          </tr>
+          <!--fiftenth row-->
+          <tr>
+            <td>Card Number</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="1" placeholder="Enter the card number"></textarea>
+            </td>
+          </tr>
+          <!--sixenth row-->
+          <tr>
+            <td>Cvv Number</td>
+            <td colspan="2">
+                <textarea name="" id="" cols="40" rows="1" placeholder="Enter the Cvv number"></textarea>
+            </td>
+
+          </tr>  
+        </table>
+        <br/>
+        <br/>
+        <button>Confirm</button>
+    </form>
+    
+</body>
+</html>

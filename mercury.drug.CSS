@@ -1,0 +1,33 @@
+form{
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-right: 490px;
+    background-color: grey;
+}
+table{
+    border:2px solid black;
+    margin-left: 10px;
+}
+td{
+    border: 2px solid black;
+}
+.MA{
+    color: black;
+    font-weight: bold;
+}
+#acceptance{
+    color: blue;
+    margin-left: 20px;
+}
+.Submit{
+    color: red;
+    background-color: grey;
+    margin-left: 20px;
+}
+h2{
+    color: white;
+    background-color:rgb(190, 69, 69);
+    margin-left: 10px;
+    margin-right:100px;
+    text-align: center;
+}
